@@ -1,0 +1,66 @@
+body{
+background: black;
+font-family: 'Open Sans', sans-serif;
+}
+
+label{
+display: inline-block;
+float: left;
+clear: left;
+width: 250px;
+text-align: right;
+}
+input {
+display: inline-block;
+float: left;
+}
+.container {
+position: relative;
+text-align: start;
+color: black;
+}
+.background{
+width: 550px;
+height: 200px;
+}
+.text-top{
+position: absolute;
+line-height: 20px;
+top: 10px;
+left: 12px;
+width: 100%
+}
+.text-bottom{
+position: absolute;
+line-height: 16px;
+top: 60px;
+left: 12px;
+width: 100%
+}
+.title{
+color: #58b200;
+font-weight: 600;
+font-style: italic;
+font-size: 20px
+}
+.subtitle{
+position: absolute;
+color: gray;
+font-style: italic;
+font-size: 14px
+}
+.phone{
+color: #58b200;
+left: 15px;
+font-style: italic;
+font-size: 14px
+}
+.site{
+color: #58b200;
+left: 15px;
+font-style: italic;
+font-size: 14px
+}
+.form{
+	color: #e3e3e3
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="card.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="card.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- backgroung image -->
+      <img src="assets/background.jpg" alt="background" class>
+      
+      <!-- title subtitle -->
+      <div class="text-top">
+        <div class="title" id="name">Layla Salles</div>
+        <div class="subtitle" id="job">Coordenação Consultoria Pecuária</div>
+      </div>
+      <!-- phone cel site -->
+      <div class="text-bottom">
+        <div class="phone" id="phone1">Celular: (62) 98134-4737</div>
+        <div class="phone" id="phone2">Fone: (62) 3091-7300 / 8408-2525</div>
+        <div class="site" id="site">www.bioxbr.com</div>
+      </div>
+    </div>
+    <!-- input container-->
+    <form id="biox">
+      <!--name-->
+      <div class="form">
+        <label>Nome:</label>
+        <input type="text" id="inputName">
+      </div>
+      <!--job position-->
+      <div class="form">
+        <label>Cargo:</label>
+        <input type="text" id="inputJob">
+      </div>
+      
+      <!--phone 1-->
+      <div class="form">
+        <label>Phone 1:</label>
+        <input type="text" id="inputPhone1">
+      </div>
+      <!--phone 2-->
+      <div class="form">
+        <label>Phone 2:</label>
+        <input type="text" id="inputPhone2">
+      </div>
+      <!--site-->
+      <div class="form">
+        <label>Site:</label>
+        <input type="text" id="inputSite">
+      </div>
+      <!-- reset button -->
+      <button id="btnReset">reset</button>
+    </form>
+  </body>
+</html>
